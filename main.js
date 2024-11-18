@@ -58,7 +58,7 @@ loadSignals().then(() => {
     printSignal.innerHTML = `${receivingSignal}x`;
     printSignal.classList.remove("deactivate");
 
-    goTimer(60);
+    goTimer(0);
     getSignal.disabled = true;
   };
 
